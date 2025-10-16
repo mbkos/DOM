@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM e Formularios</title>
+    <script type="text/javascript" src="js/ex00.js"></script>
+</head>
+<body>
+    <h1>DOM e Formulários</h1>
+    <h2>DOM</h2>
+    <p>
+        DOM - Data Object Model é uma API (Application Programming Interface) que visa simplificar a forma de acessar a estrutura
+         de um documento HTML. Facilitando criar, modificar, adicionar, retimar e manipular elementos HTML.
+    </p>
+
+    <h2>Formulários</h2>
+    <p>
+        São elementos HTML que possibilita a interação do usuário com a página web. Como exemplo temos caixas de texto, botões, caixas 
+        de seleção, dentre outros. As tags form, label, imput são tags de elementos de formulários.
+    </p>
+    <h2>Exemplo</h2>
+    <p>
+        Construa uma interface para que sejam digitados dois números e somados.
+    </p>
+    
+    <p>
+        <label for="primeiro_valor">Digite o valor: </label>
+        <input type="text" id="primeiro_valor">
+        <br><br>
+        <label for="segundo_valor">Digite o valor: </label>
+        <input type="text" id="segundo_valor">
+        <br><br>
+        <input type="button" id="btn_somar" value="SOMAR" onclick="somar()">
+        <div id="resultado">
+            
+        </div>
+    </p>
+
+    
+
+</body>
+</html>
