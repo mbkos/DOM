@@ -22,8 +22,10 @@ function somar(){
         result = parseFloat(v1) + parseFloat(v2)
         document.getElementById("resultado").innerHTML=`O resultado da soma é ${result}`
     }
+}
 
-
+function multiplicar(){
+    
 }
 
 /**3- Crie um novo documento HTML onde o usuário deve entrar o peso e altura e o programa deve exibir o IMC. Dependendo da faixa do
