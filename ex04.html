@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 4</title>
+    <script type="text/javascript" src="js/ex04.js"></script>
+</head>
+<body>
+   <!--  4- Crie um script em que o usuário entre com o login e senha e exiba uma
+     mensagem com alert caso os dados estejam correto ou incorretos -->
+     <h1>Cadastro</h1>
+     <table border="1">
+        <thead>
+            <tr>
+                <th>Login (Email)</th>
+                <th>Senhas</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>usuário1@gmail.com</td>
+                <td>senha123</td>
+            </tr>
+            <tr>
+                <td>usuário2@gmail.com</td>
+                <td>minhaSenha</td>
+            </tr>
+            <tr>
+                <td>usuário3@gmail.com</td>
+                <td>5enh4</td>
+            </tr>
+        </tbody>
+     </table >
+
+     <br>
+
+     <p>
+        <label for="usuario">Digite seu login: </label>
+        <input type="text" id="usuario">
+        <br><br>
+        <label for="senha">Digite sua senha: </label>
+        <input type="password" id="senha">
+        <br><br>
+        <input type="button" id="btn_login" value="LOGIN" onclick="validar()">
+        <div id="resultado">
+
+        </div>
+     </p>
+
+</body>
+</html>
