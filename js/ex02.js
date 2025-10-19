@@ -9,7 +9,7 @@ function converter(){
     c = document.getElementById("cotação").value
     r = parseFloat(vr) / c
     r = r.toFixed(2)
-    document.getElementById("resultado").innerHTML=`O resultado da conversão é ${r}`
+    document.getElementById("resultado").innerHTML=`O resultado da conversão é R$${r}`
 }
 
 
